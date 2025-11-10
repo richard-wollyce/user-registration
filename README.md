@@ -54,7 +54,7 @@ com.richardwollyce.cadastro_usuario
 
 -----
 
-## 💻 Running the Project
+## Running the Project
 
 ### Clone the Repository
 
@@ -79,7 +79,7 @@ mvn spring-boot:run
 
 -----
 
-## 📦 Example Requests
+## Example Requests
 
 ### Create a User (`POST /usuario`)
 
@@ -112,15 +112,15 @@ mvn spring-boot:run
 
 -----
 
-## 🧑‍💻 Author & License
+## Author & License
 
-**Author:** Richard Wollyce Santos de Souza
+**Author:** Richard Wollyce
 
 **Links:**
 
-* [🌐 Website]
-* [💼 LinkedIn]
-* [💻 GitHub]
+* [Website](www.richardwollyce.com)
+* [LinkedIn](https://www.linkedin.com/in/richardwollyce-/)
+* [YouTube](https://www.youtube.com/@richardwollyce)
 
 **License:** This project is licensed under the **MIT License**.
 
