@@ -118,7 +118,7 @@ mvn spring-boot:run
 
 **Links:**
 
-* [Website](www.richardwollyce.com)
+* [Website](https://www.richardwollyce.com)
 * [LinkedIn](https://www.linkedin.com/in/richardwollyce-/)
 * [YouTube](https://www.youtube.com/@richardwollyce)
 
