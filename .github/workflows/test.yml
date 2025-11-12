@@ -1,11 +1,11 @@
 name: Cadastro Usuario Test
 
-  on:
+on:
     pull_request:
-      branch:
+      branches:
         - main
 
-  jobs:
+jobs:
     test:
       runs-on: ubuntu-latest
 
