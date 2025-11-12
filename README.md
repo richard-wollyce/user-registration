@@ -121,9 +121,9 @@ mvn spring-boot:run
 
 **Links:**
 
-* [Website](https://www.richardwollyce.com)
 * [LinkedIn](https://www.linkedin.com/in/richardwollyce-/)
 * [YouTube](https://www.youtube.com/@richardwollyce)
+* [Website](https://www.richardwollyce.com)
 
 **License:** This project is licensed under the **MIT License**.
 
