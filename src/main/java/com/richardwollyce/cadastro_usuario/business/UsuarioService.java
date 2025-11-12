@@ -17,7 +17,7 @@ public class UsuarioService {
 
     public Usuario buscarUsuarioPorEmail(String email){
         return repository.findByEmail(email).orElseThrow(
-                () -> new RuntimeException("Email não encontrado")
+                () -> new RuntimeException("Email não encontrado!")
         );
     }
 
@@ -27,7 +27,7 @@ public class UsuarioService {
 
     public void atualizarUsuarioPorId(Integer id, Usuario usuario){
         Usuario usuarioEntity = repository.findById(id).orElseThrow(
-                () -> new RuntimeException("Usuário não encontrado")
+                () -> new RuntimeException("Usuário não encontrado!")
         );
         Usuario usuarioAtualizado = Usuario.builder()
                 .email(usuario.getEmail() != null ? usuario.getEmail() : usuarioEntity.getEmail())
