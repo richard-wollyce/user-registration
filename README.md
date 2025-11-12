@@ -1,5 +1,8 @@
 # User Registration API – Spring Boot
 
+![CI](https://github.com/richard-wollyce/cadastro-usuario/actions/workflows/ci.yml/badge.svg)
+![CD](https://github.com/richard-wollyce/cadastro-usuario/actions/workflows/cd.yml/badge.svg)
+
 A simple **RESTful API** for user registration and management, built with **Spring Boot**, **Java 25**, and an **in-memory H2 database**.
 
 The API allows you to create, read, update, and delete users through standard HTTP requests, following a **clean layered architecture**.
@@ -32,25 +35,25 @@ com.richardwollyce.cadastro_usuario
 
 ## Tech Stack
 
-| Category | Technology |
-| :--- | :--- |
-| Language | **Java 25** |
-| Framework | **Spring Boot 3.5.7** |
-| Database | **H2 (in-memory)** |
-| ORM | **Spring Data JPA** |
-| Dependency Management | **Maven** |
-| Utilities | **Lombok** |
+| Category              | Technology            |
+|:----------------------|:----------------------|
+| Language              | **Java 25**           |
+| Framework             | **Spring Boot 3.5.7** |
+| Database              | **H2 (in-memory)**    |
+| ORM                   | **Spring Data JPA**   |
+| Dependency Management | **Maven**             |
+| Utilities             | **Lombok**            |
 
 -----
 
 ## API Endpoints
 
-| Method | Endpoint | Description |
-| :--- | :--- | :--- |
-| **POST** | `/usuario` | Create a new user |
-| **GET** | `/usuario?email=value` | Retrieve a user by email |
-| **PUT** | `/usuario?id=value` | Update a user by ID |
-| **DELETE** | `/usuario?email=value` | Delete a user by email |
+| Method     | Endpoint               | Description              |
+|:-----------|:-----------------------|:-------------------------|
+| **POST**   | `/usuario`             | Create a new user        |
+| **GET**    | `/usuario?email=value` | Retrieve a user by email |
+| **PUT**    | `/usuario?id=value`    | Update a user by ID      |
+| **DELETE** | `/usuario?email=value` | Delete a user by email   |
 
 -----
 
