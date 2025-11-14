@@ -77,8 +77,8 @@ mvn spring-boot:run
 * **API:** `http://localhost:8080`
 * **H2 Console:** `http://localhost:8080/h2-console`
     * **JDBC URL:** `jdbc:h2:mem:usuario`
-    * **User:** `richard`
-    * **Password:** *(leave blank)*
+    * **User:** *(choose your username)*
+    * **Password:** *(use a strong password here)*
 
 -----
 
