@@ -1,7 +1,7 @@
 # User Registration API – Spring Boot
 
-![CI](https://github.com/richard-wollyce/cadastro-user/actions/workflows/ci.yml/badge.svg)
-![CD](https://github.com/richard-wollyce/cadastro-user/actions/workflows/cd.yml/badge.svg)
+![CI](https://github.com/richard-wollyce/user-registration/actions/workflows/ci.yml/badge.svg)
+![CD](https://github.com/richard-wollyce/user-registration/actions/workflows/cd.yml/badge.svg)
 
 A simple **RESTful API** for user registration and management, built with **Spring Boot**, **Java 25**, and an **in-memory H2 database**.
 
