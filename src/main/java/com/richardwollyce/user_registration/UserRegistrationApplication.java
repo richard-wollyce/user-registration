@@ -1,13 +1,13 @@
-package com.richardwollyce.cadastro_usuario;
+package com.richardwollyce.user_registration;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CadastroUsuarioApplication {
+public class UserRegistrationApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CadastroUsuarioApplication.class, args);
+		SpringApplication.run(UserRegistrationApplication.class, args);
 	}
 
 }
