@@ -1,4 +1,4 @@
-package com.richardwollyce.cadastro_usuario.infrastructure.entities;
+package com.richardwollyce.user_registration.infrastructure.entities;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -9,8 +9,8 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@Table(name = "usuario")
-public class Usuario {
+@Table(name = "users")
+public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
@@ -18,7 +18,7 @@ public class Usuario {
     @Column(name = "email", unique = true)
     private String email;
 
-    @Column(name = "nome")
-    private String nome;
+    @Column(name = "name")
+    private String name;
 }
 
