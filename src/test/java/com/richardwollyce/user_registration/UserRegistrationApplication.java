@@ -1,10 +1,10 @@
-package com.richardwollyce.cadastro_usuario;
+package com.richardwollyce.user_registration;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CadastroUsuarioApplicationTests {
+class UserRegistrationApplication {
 
 	@Test
 	void contextLoads() {
